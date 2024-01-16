@@ -1,0 +1,56 @@
+body { Font-size: 12px; 
+        background-image: url("/images/fon3.jpg");
+        /* background-position: center;
+        background-size: cover;
+        */
+        margin: 0 auto;}
+/*Заголовки h3*/
+        .h3 { Font-Family: Time Verdana, ARIAL;
+     Font-size: 1.5em;
+     Text-align: right; color: #ffa500;}
+/* параграфы*/
+     .par  {Font-size: 12px;
+            Font-Family:Times New Roman;
+            text-align: right;
+            text-decoration: underline;
+            color: green;}
+/*картинки*/
+.image {    
+            width: auto;
+            height: auto;
+            border-style: outset;
+            border-width: 2px;
+            border-color: #000;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            float: left;
+            margin-right: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            }
+
+/*список*/
+ul {
+    list-style-type: decimal;
+    color: pink; 
+  }
+/*ссылки на главной цвет*/
+  a {
+    color: green; 
+  }
+
+ /*ссылка на глав страницу*/
+   .footer {
+    Font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 3px;
+    background-color: orange;
+    /*font-weight: bold;
+    color: green;*/    
+}
+    .footer a {
+    color: green;
+    text-decoration: bold;
+  }
